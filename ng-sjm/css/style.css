@@ -2,6 +2,18 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 600px) {
+  .fork {
+    display: none;
+  }
+}
+
+.fork{
+    position: absolute;
+    right:0px;
+    top:0px;
+}
 .game {
     background-image: url(../images/bg.jpg);
     background-size: 100% 100%;
