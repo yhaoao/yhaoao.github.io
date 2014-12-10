@@ -87,10 +87,10 @@ angular.module('ngSJM.controllers', []).controller('MainController', function($s
             left += evenMargin;
         }
 
-        var backgroundImage = 'url(/images/pot1.png)';
+        var backgroundImage = 'url(/ng-sjm/images/pot1.png)';
 
         if (unit.isObstacle) {
-            backgroundImage = 'url(/images/pot2.png)';
+            backgroundImage = 'url(/ng-sjm/images/pot2.png)';
         }
 
         return {

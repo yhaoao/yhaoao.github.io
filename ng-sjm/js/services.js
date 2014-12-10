@@ -297,17 +297,17 @@ angular.module('ngSJM.services', [])
         };
     }).factory('ImgLoader', function($q) {
         var images = [
-            '/images/bg.jpg',
-            '/images/btn_start.png',
-            '/images/fail.png',
-            '/images/mao2.png',
-            '/images/pot1.png',
-            '/images/pot2.png',
-            '/images/replay.png',
-            '/images/shareBTN.png',
-            '/images/stay.png',
-            '/images/success.png',
-            '/images/weizhu.png'
+            '/ng-sjm/images/bg.jpg',
+            '/ng-sjm/images/btn_start.png',
+            '/ng-sjm/images/fail.png',
+            '/ng-sjm/images/mao2.png',
+            '/ng-sjm/images/pot1.png',
+            '/ng-sjm/images/pot2.png',
+            '/ng-sjm/images/replay.png',
+            '/ng-sjm/images/shareBTN.png',
+            '/ng-sjm/images/stay.png',
+            '/ng-sjm/images/success.png',
+            '/ng-sjm/images/weizhu.png'
         ];
 
 

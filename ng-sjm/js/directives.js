@@ -34,7 +34,7 @@ angular.module('ngSJM.directives', [])
                 $scope.$watch('result', function(newValue, oldValue) {
                     if (newValue) {
                         $scope.style = {
-                            "background-image": 'url(images/mao2.png),url(images/' + newValue.state + '.png)'
+                            "background-image": 'url(/ng-sjm/images/mao2.png),url(/ng-sjm/images/' + newValue.state + '.png)'
                         }
                     }
 

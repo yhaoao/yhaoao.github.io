@@ -58,7 +58,7 @@ html, body {
     width: 400px;
     height: 588px;
     margin: auto;
-    background: url('/images/btn_start.png') center center no-repeat;
+    background: url('/ng-sjm/images/btn_start.png') center center no-repeat;
     background-size: 400px 588px;
     -webkit-transform: translate(-50%, -50%);
     -webkit-transform-origin: center center;
@@ -98,7 +98,7 @@ html, body {
     -webkit-animation-duration: 0.8s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: steps(15);
-    background: url('/images/stay.png');
+    background: url('/ng-sjm/images/stay.png');
     width: 60px;
     height: 93px;
 }
@@ -107,7 +107,7 @@ html, body {
     -webkit-animation-duration: 0.8s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: steps(15);
-    background: url('/images/weizhu.png');
+    background: url('/ng-sjm/images/weizhu.png');
     width: 64px;
     height: 91px;
 }
