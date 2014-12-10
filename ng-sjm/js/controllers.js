@@ -47,6 +47,7 @@ angular.module('ngSJM.controllers', []).controller('MainController', function($s
 
     ImgLoader.loadImg().then(
         function() {
+            Env.init();
             $scope.global.gameState = 'start';
         },
         function() {
