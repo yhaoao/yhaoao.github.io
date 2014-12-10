@@ -115,8 +115,7 @@ angular.module('ngSJM.services', [])
     })
     .factory('Grid', function(UnitProto, GraphProto) {
 
-        //var obstacleProb = 0.12;
-        var obstacleProb = 0.3;
+        var obstacleProb = 0.12;
         var rowCount = 9;
         var colCount = 9;
         var unitCount = rowCount * colCount;
