@@ -3,7 +3,7 @@ angular.module('ngSJM.controllers', []).controller('MainController', function($s
     var steps = 0;
     var evenMargin = uintWidth / 4;
     var oddMargin = (uintWidth * 3) / 4;
-
+    Env.init();
     var setObstacle = function(unit) {
         if (unit.isObstacle) {
             return;
