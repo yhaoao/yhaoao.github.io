@@ -1,0 +1,9 @@
+<div class="tab-headers" id="tab-headers">
+    <div ng-repeat="tab in tabs" class="tab-item" ' +
+                  ng-click="selectTab($index)"' + id="{{'tab'+$index}}" ng-class="{selected: isSelectedTab($index)}">
+        <i style="font-size:2.5em;line-height:1em" ng-class="tab.icon"></i>
+        </br>
+        <span ng-bind="tab.title"></span>
+    </div>
+</div>
+<div class="tab-container" id="tab-container" ng-transclude></div>
