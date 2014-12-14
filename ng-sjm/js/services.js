@@ -150,7 +150,7 @@ angular.module('ngSJM.services', [])
 
         var getAdjUints = function(row, col) {
             var results = [];
-            _.each(['left', 'right', 'topRight', 'topLeft', 'bottomRight', 'bottomLeft'], function(direction) {
+            _.each(_.shuffle(['left', 'right', 'bottomRight', 'bottomLeft', 'topRight', 'topLeft']), function(direction) {
                 var temp = getAdjUnitByDirection(row, col, direction);
                 if (temp) {
                     results.push(temp);
